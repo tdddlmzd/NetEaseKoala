@@ -1,0 +1,37 @@
+/* 清间距 重置样式 */
+header,nav,footer,main,
+aside,banner,p,span,img,
+h1,h2,h3,h4,dl,dt,dd,ul,
+ol,li,input,body,a,div{
+    margin:0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* 创建公共全局样式 */
+.l{
+    float:left;
+}
+.r{
+    float: right;
+}
+/* 电脑的屏幕总共是1280px */
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+.hidden{
+    display: none;
+}
+.block{
+    display: block;
+}
+body{
+    user-select: none;
+}

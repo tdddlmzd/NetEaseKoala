@@ -1,0 +1,437 @@
+@charset "UTF-8";
+#login-header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#login-header h1 {
+  width: 420px;
+  background-size: 200px;
+  height: 100px;
+  background-image: url("../img/login/2.png");
+  background-repeat: no-repeat;
+  background-position-y: 20px;
+}
+
+#login-header div {
+  flex: 1;
+  height: 100px;
+  background-size: 500px;
+  background-image: url("../img/login/1.png");
+  background-repeat: no-repeat;
+  background-position-y: 5px;
+  background-position-x: 80px;
+}
+
+#login-main {
+  width: 100%;
+  background-image: url("../img/login/6.png");
+  height: 500px;
+  position: relative;
+}
+
+#login-main .loginpage {
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  margin-top: -170.5px;
+}
+
+#login-main .loginpage .iphonee .button {
+  height: 40px;
+  display: flex;
+  background-color: #ecdede;
+}
+
+#login-main .loginpage .iphonee .button span {
+  background-color: #ecdede;
+  height: 32px;
+  width: 2px;
+  margin-top: 8px;
+  color: black;
+}
+
+#login-main .loginpage .iphonee .button button {
+  width: 50%;
+  border: 0;
+  outline: none;
+  background-color: #ecdede;
+  cursor: pointer;
+}
+
+#login-main .loginpage .iphonee .button button.current {
+  color: #ff0408;
+}
+
+#login-main .loginpage .iphonee .button button:hover {
+  color: #ff0408;
+}
+
+#login-main .loginpage .iphonee .short {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+}
+
+#login-main .loginpage .iphonee .short p {
+  height: 40px;
+  color: black;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+#login-main .loginpage .iphonee .short p:hover {
+  color: #ff0408;
+}
+
+#login-main .loginpage .iphonee .short .input {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 20px;
+  background: yellow;
+}
+
+#login-main .loginpage .iphonee .short .input input {
+  width: 300px;
+  height: 40px;
+}
+
+#login-main .loginpage .iphonee .short .input.shouji {
+  top: 50px;
+}
+
+#login-main .loginpage .iphonee .short .input.mima {
+  top: 100px;
+}
+
+#login-main .loginpage .iphonee .short .input.mima button {
+  position: absolute;
+  right: -3px;
+  top: 0px;
+  width: 103px;
+  height: 43px;
+  border: 0;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+#login-main .loginpage .iphonee .short .input.mima button:hover {
+  color: #ff0408;
+  background-color: #f0e1e1;
+}
+
+#login-main .loginpage .iphonee .usermima {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  z-index: 1;
+}
+
+#login-main .loginpage .iphonee .usermima p {
+  height: 40px;
+  color: black;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+#login-main .loginpage .iphonee .usermima p:hover {
+  color: #ff0408;
+}
+
+#login-main .loginpage .iphonee .usermima .input {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 20px;
+  background: yellow;
+}
+
+#login-main .loginpage .iphonee .usermima .input input {
+  width: 300px;
+  height: 40px;
+}
+
+#login-main .loginpage .iphonee .usermima .input.shouji {
+  top: 50px;
+}
+
+#login-main .loginpage .iphonee .usermima .input.mima {
+  top: 100px;
+}
+
+#login-main .loginpage .iphonee .usermima .input.mima button {
+  position: absolute;
+  right: -3px;
+  top: 0px;
+  width: 103px;
+  height: 43px;
+  border: 0;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+#login-main .loginpage .iphonee .usermima .input.mima button:hover {
+  color: #ff0408;
+  background-color: #f0e1e1;
+}
+
+#login-main .loginpage .emai {
+  display: none;
+}
+
+#login-main .loginpage .emai .button {
+  height: 40px;
+  display: flex;
+  background-color: #ecdede;
+}
+
+#login-main .loginpage .emai .button span {
+  background-color: #ecdede;
+  height: 32px;
+  width: 2px;
+  margin-top: 8px;
+  color: black;
+}
+
+#login-main .loginpage .emai .button button {
+  width: 50%;
+  border: 0;
+  outline: none;
+  background-color: #ecdede;
+  cursor: pointer;
+}
+
+#login-main .loginpage .emai .button button.current {
+  color: #ff0408;
+}
+
+#login-main .loginpage .emai .button button:hover {
+  color: #ff0408;
+}
+
+#login-main .loginpage .emai .input {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 20px;
+  background: yellow;
+}
+
+#login-main .loginpage .emai .input input {
+  width: 300px;
+  height: 40px;
+}
+
+#login-main .loginpage .emai .input.ema {
+  top: 80px;
+}
+
+#login-main .loginpage .emai .input.mima {
+  top: 150px;
+}
+
+#login-main .loginpage .emai .input.mima button {
+  position: absolute;
+  right: -3px;
+  top: 0px;
+  width: 103px;
+  height: 43px;
+  border: 0;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+#login-main .loginpage .emai .input.mima button:hover {
+  color: #ff0408;
+  background-color: #f0e1e1;
+}
+
+#login-main .loginpage .bottom {
+  width: 350px;
+  position: absolute;
+  height: 130px;
+  bottom: 0;
+  left: 0;
+}
+
+#login-main .loginpage .bottom .btn1 {
+  width: 300px;
+  height: 40px;
+  border: 0;
+  background-color: #ff0408;
+  margin-left: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#login-main .loginpage .bottom .btn1:hover {
+  background-color: #d34e50;
+}
+
+#login-main .loginpage .bottom .inpu {
+  width: 300px;
+  margin-left: 25px;
+  height: 30px;
+  margin-top: 0px;
+  color: #9999b2;
+}
+
+#login-main .loginpage .bottom .inpu a {
+  color: #9999b2;
+  font-size: 16px;
+}
+
+#login-main .loginpage .bottom .inpu a:hover {
+  color: #ff0408;
+}
+
+#login-main .loginpage .bottom .inpu #box + label {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 25px;
+  position: relative;
+}
+
+#login-main .loginpage .bottom .inpu #box + label::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  width: 20px;
+  box-sizing: border-box;
+  height: 20px;
+  border: 1px solid #413030;
+}
+
+#login-main .loginpage .bottom .inpu #box:checked + label::before {
+  content: "√";
+  color: #3ea02b;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  border-color: #413030;
+}
+
+#login-main .loginpage .bottom .inpu #box {
+  visibility: hidden;
+}
+
+#login-main .loginpage .bottom p {
+  width: 300px;
+  margin-left: 25px;
+  height: 30px;
+  margin-top: 0px;
+  font-size: 14px;
+  color: #9999b2;
+}
+
+#login-main .loginpage .bottom p a {
+  color: #9999b2;
+  text-decoration: underline;
+}
+
+#login-main .loginpage .bottom .icon {
+  width: 350px;
+  height: 30px;
+  border-top: 1px solid #ccc;
+  position: relative;
+}
+
+#login-main .loginpage .bottom .icon span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 5px;
+  background-image: url("../img/35.png");
+}
+
+#login-main .loginpage .bottom .icon span.span1 {
+  margin-left: 20px;
+  background-position-x: 219px;
+  background-position-y: 523px;
+}
+
+#login-main .loginpage .bottom .icon span.span2 {
+  background-position-x: 219px;
+  background-position-y: 497px;
+}
+
+#login-main .loginpage .bottom .icon span.span3 {
+  background-position-x: 219px;
+  background-position-y: 467px;
+}
+
+#login-main .loginpage .bottom .icon span.span4 {
+  background-position-x: 219px;
+  background-position-y: 440px;
+}
+
+#login-main .loginpage .bottom .icon span.span5 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0;
+  width: 150px;
+  height: 30px;
+  background-image: none;
+}
+
+#login-main .loginpage .bottom .icon span.span5 a {
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  color: #ff0408;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#login-main .loginpage .bottom .icon span.span5 a .span6 {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background: #ff0408;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+}
+
+#login-footer {
+  text-align: center;
+  height: 300px;
+  color: #756565;
+  line-height: 40px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+#login-footer p a {
+  color: #2b2424;
+  padding: 0 2px;
+}
+
+#login-footer p.pp a {
+  padding: 0 20px;
+  border-right: 1px solid #ccc;
+}
+
+#login-footer p.p1 span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#login-footer p.p2 a img {
+  height: 30px;
+  margin: 0 20px;
+}

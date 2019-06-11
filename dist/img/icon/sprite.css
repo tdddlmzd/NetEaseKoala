@@ -1,0 +1,144 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-baobao {
+  background-image: url(sprite.png);
+  background-position: -20px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-gouwuche {
+  background-image: url(sprite.png);
+  background-position: -60px -20px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hbaobao {
+  background-image: url(sprite.png);
+  background-position: 0px -20px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hgouwuche {
+  background-image: url(sprite.png);
+  background-position: -20px -20px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hhanbao {
+  background-image: url(sprite.png);
+  background-position: -40px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hjiubei {
+  background-image: url(sprite.png);
+  background-position: -40px -20px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hjiuping {
+  background-image: url(sprite.png);
+  background-position: 0px -40px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hsahfa {
+  background-image: url(sprite.png);
+  background-position: -20px -40px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hshizhong {
+  background-image: url(sprite.png);
+  background-position: -40px -40px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hxin {
+  background-image: url(sprite.png);
+  background-position: -60px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hyanjing {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hyijia {
+  background-image: url(sprite.png);
+  background-position: -60px -40px;
+  width: 20px;
+  height: 20px;
+}
+.icon-hzhaoxiangji {
+  background-image: url(sprite.png);
+  background-position: 0px -60px;
+  width: 20px;
+  height: 20px;
+}
+.icon-jiubei {
+  background-image: url(sprite.png);
+  background-position: -20px -60px;
+  width: 20px;
+  height: 20px;
+}
+.icon-jiuping {
+  background-image: url(sprite.png);
+  background-position: -40px -60px;
+  width: 20px;
+  height: 20px;
+}
+.icon-shafa {
+  background-image: url(sprite.png);
+  background-position: -60px -60px;
+  width: 20px;
+  height: 20px;
+}
+.icon-shizhong {
+  background-image: url(sprite.png);
+  background-position: -80px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-xin {
+  background-image: url(sprite.png);
+  background-position: -80px -20px;
+  width: 20px;
+  height: 20px;
+}
+.icon-yanjing {
+  background-image: url(sprite.png);
+  background-position: -80px -40px;
+  width: 20px;
+  height: 20px;
+}
+.icon-yijia {
+  background-image: url(sprite.png);
+  background-position: -80px -60px;
+  width: 20px;
+  height: 20px;
+}
+.icon-zhaoxiangji {
+  background-image: url(sprite.png);
+  background-position: 0px -80px;
+  width: 20px;
+  height: 20px;
+}

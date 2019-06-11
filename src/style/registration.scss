@@ -1,0 +1,221 @@
+#regist-header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    h1{
+        width: 420px;;
+        background-size:200px;
+        height: 100px;
+        background-image: url('../img/login/2.png');
+        background-repeat: no-repeat;
+        background-position-y: 20px;
+    }
+    div{
+        flex:1;
+        height: 100px;
+        background-size: 500px;
+        background-image: url('../img/login/1.png');
+        background-repeat: no-repeat;
+        background-position-y: 5px;
+        background-position-x: 80px;
+    }
+}
+
+#regist-main{
+    width: 100%;
+    background-image:url('../img/login/6.png');
+    height: 500px;
+    position: relative;
+    .loginpage{
+        width: 350px;
+        height: 350px;
+        background-color: #fff;
+        position: absolute;
+        left:20px;
+        top:50%;
+        margin-top:-170.5px;
+        h1{
+            width: 350px;
+            height: 50px;
+            line-height: 50px;
+            color:#ff0408;
+            font-size:20px;
+            text-indent: 25px;
+            border-bottom: 1px solid #ccc;
+            a{
+                color:#2b2626;
+                font-size: 14px;
+                height: 40px;
+                position: absolute;
+                line-height: 40px;
+                display: inline-block;
+                right:25px;
+                top:10px;
+                span{
+                    color:#2c6ac7;
+                }
+            }
+        }
+
+        .usermima{
+            width: 100%;
+            height: 400px;
+            position: absolute;
+                .input{
+                    position: absolute;
+                    width:300px;
+                    height: 40px;
+                    left: 20px;
+                    background: yellow;
+                    input{
+                        width:300px;
+                        height: 40px;
+                        }
+                        &.shouji{
+                            top:50px;
+                        }
+                        &.duanxin{
+                            top:100px;
+                            button{
+                                position: absolute;
+                                right: -3px;
+                                top:0px;
+                                width: 103px;
+                                height: 43px;
+                                border: 0;
+                                outline: none;
+                                border:1px solid #ccc;
+                                &:hover{
+                                    color:#ff0408;
+                                    background-color:rgb(240, 225, 225);
+                                }
+                            }
+                        }
+                        &.mima{
+                            top:150px;
+                        }
+                }
+                p{
+                    position: absolute;
+                    top:196px;
+                    left:25px;
+                    color:red;
+                    display: none;
+                }
+                }
+            }
+
+        .bottom{
+            width: 350px;
+            position: absolute;
+            height: 150px;
+            bottom:0;
+            left: 0;
+            .btn1{
+                width: 300px;
+                height: 40px;
+                border: 0;
+                background-color:#ff0408;
+                margin-left:38px;
+                color:#fff;
+                cursor: pointer;
+                &:hover{
+                    background-color:#d34e50;
+                }
+            }
+            .inpu{
+                width: 300px;
+                margin-left:25px;
+                height: 30px;
+                margin-top:0px;
+                font-size:14px;
+                color:#121230;
+                a{
+                    color:#121230;
+                    font-size:14px;
+                    &:hover{
+                        color:#7a7070;
+                    }
+                }
+                #box+label {
+                    // display: block;
+                    height: 30px;
+                    line-height: 30px;
+                    // background: #ff0;
+                    padding-left: 25px;
+                    position: relative
+                }
+        
+                #box+label::before {
+                    content: "";
+                    position: absolute;
+                    top: -2px;
+                    left: 0px;
+                    width: 20px;
+                    box-sizing: border-box;
+                    height: 20px;
+                    border: 1px solid rgb(65, 48, 48);
+                }
+        
+                #box:checked+label::before {
+                    content: "√";
+                    color: rgb(62, 160, 43);
+                    text-align: center;
+                    line-height: 20px;
+                    font-weight: bold;
+                    border-color: rgb(65, 48, 48);
+                }
+        
+                #box {
+                    visibility: hidden
+                }
+                        
+            }
+        }
+            
+        
+    }
+
+
+
+#regist-footer{
+    text-align: center;
+    height: 300px;
+    color:rgb(117, 101, 101);
+    line-height: 40px;
+    font-size: 16px;
+
+    background-color:#fff;
+    p{
+        a{
+            color:rgb(43, 36, 36);
+            padding: 0 2px;
+            // &:hover{
+            //     // text-decoration: underline;
+            // }
+        }
+        &.pp{
+            a{  
+                // float: left;
+                padding: 0 20px;
+                // display: inline-block;
+                border-right:1px solid #ccc;
+            }
+        }
+        &.p1{
+            span{
+                display: inline-block;
+                margin:0 10px;
+            }
+        }
+        &.p2{
+            a{
+                img{
+                    height: 30px;
+                    margin: 0 20px;
+                }
+            }
+        }
+    }
+}
+
